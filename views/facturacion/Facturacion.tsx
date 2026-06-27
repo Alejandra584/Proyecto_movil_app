@@ -31,10 +31,8 @@ export const FacturacionScreen = () => {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Título "Pasarela de Facturación" centrado */}
         <Text style={styles.headerTitle}>Pasarela de Facturación</Text>
 
-        {/* Resumen */}
         <View style={styles.resumenCard}>
           <Text style={styles.resumenTitle}>RESUMEN DE SERVICIOS ADQUIRIDOS</Text>
           {servicios.map((servicio) => (
@@ -53,7 +51,6 @@ export const FacturacionScreen = () => {
           </View>
         </View>
 
-        {/* Métodos de Pago */}
         <Text style={styles.metodoTitle}>SELECCIONE MÉTODO DE PAGO</Text>
 
         {metodosPago.map((metodo) => (
@@ -70,7 +67,6 @@ export const FacturacionScreen = () => {
           </TouchableOpacity>
         ))}
 
-        {/* Botón Proceder */}
         <TouchableOpacity style={styles.procederButton} onPress={handleProcesar}>
           <Text style={styles.procederButtonText}>🔒 Proceder al pago Seguro</Text>
         </TouchableOpacity>
