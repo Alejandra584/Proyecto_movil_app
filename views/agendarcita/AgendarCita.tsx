@@ -61,7 +61,6 @@ export const AgendarCitaScreen = () => {
           ))}
         </View>
 
-        {/* Calendario */}
         <Text style={styles.sectionTitle}>
           2. SELECCIONE FECHA (MAYO 2026)
         </Text>
@@ -112,7 +111,6 @@ export const AgendarCitaScreen = () => {
           ))}
         </View>
 
-        {/* Horas */}
         <Text style={styles.sectionTitle}>3. HORAS DISPONIBLES</Text>
         <View style={styles.horasContainer}>
           {horasDisponibles.map((hora) => (
@@ -136,7 +134,6 @@ export const AgendarCitaScreen = () => {
           ))}
         </View>
 
-        {/* Confirmar */}
         <TouchableOpacity style={styles.confirmarButton} onPress={handleConfirmar}>
           <Text style={styles.confirmarButtonText}>Confirmar y Agendar</Text>
         </TouchableOpacity>
