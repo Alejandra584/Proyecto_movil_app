@@ -1,0 +1,166 @@
+import { StyleSheet } from 'react-native';
+
+const HomeStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+  },
+  scrollView: {
+    flex: 1,
+    paddingHorizontal: 20,
+    paddingTop: 50,
+  },
+  headerTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#333333',
+    textAlign: 'center',
+    marginBottom: 20,
+    fontFamily: 'System',  // Static Medium font
+  },
+  // Cuadro de bienvenida
+  welcomeCard: {
+    backgroundColor: '#8167c2',
+    borderRadius: 15,
+    padding: 15,
+    marginBottom: 25,
+  },
+  welcomeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  avatarContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: '#ffffff33',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 15,
+  },
+  avatarText: {
+    fontSize: 30,
+  },
+  welcomeTextContainer: {
+    flex: 1,
+  },
+  welcomeText: {
+    fontSize: 18,
+    fontWeight: '500',  // Medium
+    color: '#000000',
+    textAlign: 'left',  // Alineado a la izquierda
+    fontFamily: 'System',
+  },
+  userName: {
+    fontSize: 20,
+    fontWeight: '600',  // Semi-bold para diferenciar
+    color: '#000000',
+    textAlign: 'left',  // Alineado a la izquierda
+    marginTop: 2,
+    fontFamily: 'System',
+  },
+  recordatorioCard: {
+    backgroundColor: '#FFF8E1',
+    borderRadius: 15,
+    padding: 15,
+    marginBottom: 20,
+    borderLeftWidth: 5,
+    borderLeftColor: '#FF9800',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  recordatorioTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#E65100',
+    fontFamily: 'System',
+  },
+  recordatorioMensaje: {
+    fontSize: 14,
+    color: '#555',
+    marginTop: 5,
+    fontFamily: 'System',
+  },
+  mascotaCard: {
+    backgroundColor: 'white',
+    borderRadius: 15,
+    padding: 15,
+    marginBottom: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    borderWidth: 1,
+    borderColor: '#F0F0F0',
+  },
+  mascotaNombre: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#333',
+    fontFamily: 'System',
+  },
+  mascotaCita: {
+    fontSize: 14,
+    color: '#666',
+    fontFamily: 'System',
+  },
+  mascotaCitaActiva: {
+    fontSize: 14,
+    color: '#35206bd4',
+    fontWeight: 'bold',
+    fontFamily: 'System',
+  },
+  accesoRapido: {
+    marginTop: 20,
+    marginBottom: 30,
+  },
+  accesoRapidoTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 15,
+    fontFamily: 'System',
+  },
+  gridContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  gridItem: {
+    width: '48%',
+    aspectRatio: 1,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#625b71',
+    marginBottom: 10,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+  },
+  gridIcon: {
+    fontSize: 30,
+    color: '#6851a1d4',
+  },
+  gridLabel: {
+    fontSize: 12,
+    color: '#333',
+    marginTop: 5,
+    textAlign: 'center',
+    fontWeight: '500',
+    fontFamily: 'System',
+  },
+});
+
+export default HomeStyles;
