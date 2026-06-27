@@ -12,7 +12,6 @@ export const HistorialScreen = () => {
         
         <Text style={styles.headerTitle}>Historial Clínico Móvil</Text>
 
-       
         <View style={styles.mascotaCard}>
           <View style={styles.mascotaRow}>
             <View style={styles.mascotaImageContainer}>
@@ -28,7 +27,6 @@ export const HistorialScreen = () => {
           </View>
         </View>
 
-        
         <Text style={styles.seccionTitle}>EVALUACIONES Y SEGUIMIENTO</Text>
 
         {evaluaciones.map((evaluacion) => (
@@ -47,7 +45,6 @@ export const HistorialScreen = () => {
           </View>
         ))}
 
-       
         <TouchableOpacity style={styles.descargarButton}>
           <Text style={styles.descargarButtonText}>
             📄 Descargar Historial Completo (PDF)
