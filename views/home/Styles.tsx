@@ -16,9 +16,8 @@ const HomeStyles = StyleSheet.create({
     color: '#333333',
     textAlign: 'center',
     marginBottom: 20,
-    fontFamily: 'System',  // Static Medium font
+    fontFamily: 'System',
   },
-  // Cuadro de bienvenida
   welcomeCard: {
     backgroundColor: '#8167c2',
     borderRadius: 15,
@@ -46,16 +45,16 @@ const HomeStyles = StyleSheet.create({
   },
   welcomeText: {
     fontSize: 18,
-    fontWeight: '500',  // Medium
+    fontWeight: '500',
     color: '#000000',
-    textAlign: 'left',  // Alineado a la izquierda
+    textAlign: 'left',
     fontFamily: 'System',
   },
   userName: {
     fontSize: 20,
-    fontWeight: '600',  // Semi-bold para diferenciar
+    fontWeight: '600',
     color: '#000000',
-    textAlign: 'left',  // Alineado a la izquierda
+    textAlign: 'left',
     marginTop: 2,
     fontFamily: 'System',
   },
