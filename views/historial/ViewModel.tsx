@@ -1,4 +1,3 @@
-// src/presentation/views/historial/ViewModel.tsx
 const HistorialViewModel = () => {
   const mascota = {
     nombre: 'Toby',
