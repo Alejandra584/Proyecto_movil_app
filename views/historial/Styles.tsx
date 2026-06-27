@@ -10,7 +10,6 @@ const HistorialStyles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingTop: 50,
   },
-  // ✅ Título "Veterinaria" centrado (con flecha para volver)
   headerTitle: {
     fontSize: 28,
     fontWeight: 'bold',
@@ -18,7 +17,6 @@ const HistorialStyles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 10,
   },
-  // ✅ Subtítulo "Historial Clínico Móvil" centrado
   subTitle: {
     fontSize: 18,
     fontWeight: '500',
