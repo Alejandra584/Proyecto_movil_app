@@ -11,8 +11,8 @@ const FacturacionStyles = StyleSheet.create({
         paddingTop: 50,
     },
     headerTitle: {
-        fontSize: 28,         // ✅ 'S' mayúscula
-        fontWeight: '600',    // ✅ 'W' mayúscula
+        fontSize: 28,
+        fontWeight: '600',
         color: '#333333',
         textAlign: 'center',
         marginBottom: 25,
@@ -23,7 +23,7 @@ const FacturacionStyles = StyleSheet.create({
         padding: 20,
         marginBottom: 20,
         elevation: 2,
-        shadowColor: '#000000',  // ✅ CORREGIDO: '#000000' o '#000'
+        shadowColor: '#000000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.1,
         shadowRadius: 4,
