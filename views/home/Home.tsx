@@ -26,10 +26,8 @@ export const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Título Veterinaria */}
         <Text style={styles.headerTitle}>Veterinaria</Text>
 
-        {/* Cuadro de bienvenida con foto */}
         <View style={styles.welcomeCard}>
           <View style={styles.welcomeRow}>
             <View style={styles.avatarContainer}>
@@ -42,7 +40,6 @@ export const HomeScreen = () => {
           </View>
         </View>
 
-        {/* Recordatorio */}
         {recordatorios[0] && (
           <View style={styles.recordatorioCard}>
             <Text style={styles.recordatorioTitle}>
@@ -54,7 +51,6 @@ export const HomeScreen = () => {
           </View>
         )}
 
-        {/* Mascotas */}
         {recordatorios.map((mascota) => (
           <View key={mascota.id} style={styles.mascotaCard}>
             <Text style={styles.mascotaNombre}>{mascota.nombre}</Text>
@@ -70,7 +66,6 @@ export const HomeScreen = () => {
           </View>
         ))}
 
-        {/* Acceso Rápido */}
         <View style={styles.accesoRapido}>
           <Text style={styles.accesoRapidoTitle}>Acceso rápido</Text>
           <View style={styles.gridContainer}>
