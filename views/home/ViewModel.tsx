@@ -1,4 +1,3 @@
-// src/presentation/views/home/ViewModel.tsx
 import { useState } from 'react';
 
 const HomeViewModel = () => {
